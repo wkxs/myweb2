@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- QQ卡片核心元数据（决定卡片显示内容） -->
+  <meta property="og:title" content="这里是QQ卡片的标题"> <!-- 卡片大标题 -->
+  <meta property="og:description" content="这里是卡片的描述文字（简短明了）"> <!-- 卡片副标题 -->
+  <meta property="og:image" content="https://你的域名/cover.jpg"> <!-- 卡片封面图（HTTPS绝对路径） -->
+  <meta property="og:url" content="https://你的域名/qq-card.html"> <!-- 中转页自身的URL（QQ抓取的链接） -->
+  
+  <!-- 可选：优化显示 -->
+  <meta property="og:type" content="website"> <!-- 内容类型，默认为website -->
+  <meta http-equiv="Cache-Control" content="no-cache"> <!-- 避免QQ缓存旧内容 -->
+  <title>跳转中...</title>
+</head>
+<body>
+  <h1>hello world</h1>
+  <!-- 自动跳转到目标网址（延迟1秒，避免QQ拦截） -->
+  <script>
+    // 目标网址（替换为你需要跳转的网址）
+    const targetUrl = "https://目标网址.com";
+    // 延迟1秒跳转，提升兼容性
+    // setTimeout(() => {
+    //   window.location.href = targetUrl;
+    // }, 1000);
+  </script>
+</body>
+</html>
